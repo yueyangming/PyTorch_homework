@@ -1,0 +1,11 @@
+.DS_Store
+.ipynb_checkpoints/
+3body.txt
+WordVector.ipynb
+dictionary.txt
+glove_6B/
+vectors.bin
+word_embeddings_tutorial.ipynb
+"\344\270\211\344\275\223.txt"
+*.txt
+sequence_models_tutorial.ipynb
