@@ -15,13 +15,13 @@ class Player(pygame.sprite.Sprite):
         self.rect = self.image.get_rect()
 
     def update(self, pressed_keys):
-        if pressed_keys[0]:
+        if pressed_keys[0]:  # Up
             self.rect.move_ip(0, -5)
-        if pressed_keys[1]:
+        if pressed_keys[1]:  # Down
             self.rect.move_ip(0, 5)
-        if pressed_keys[2]:
+        if pressed_keys[2]:  # Left
             self.rect.move_ip(-5, 0)
-        if pressed_keys[3]:
+        if pressed_keys[3]:  # Right
             self.rect.move_ip(5, 0)
 
         # Keep player on the screen
